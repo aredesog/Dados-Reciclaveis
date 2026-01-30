@@ -1,6 +1,3 @@
-"""
-Script para gerar dados sintéticos sobre reciclagem no Brasil (2015-2025)
-"""
 
 import pandas as pd
 import numpy as np
