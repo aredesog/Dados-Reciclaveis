@@ -36,9 +36,6 @@ reciclavel/
 
 ```
 
-## Link do Projeto
-
-https://dados-reciclaveis-bw6z63mmrdwuhjsgkgjtoa.streamlit.app/
 
 ## 📊 Estrutura dos Dados
 
@@ -51,6 +48,10 @@ O dataset contém as seguintes colunas:
 | `nivel_infraestrutura` | Nível de infraestrutura de reciclagem (Alto, Médio, Baixo) |
 | `material` | Tipo de material reciclável |
 | `residuo_gerado_ton` | Quantidad# Aplicação Streamlit
+
+## Link do Projeto
+
+https://dados-reciclaveis-bw6z63mmrdwuhjsgkgjtoa.streamlit.app/
 
 ```
 
