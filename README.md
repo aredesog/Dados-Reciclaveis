@@ -33,7 +33,12 @@ reciclavel/
 ├── dados_reciclagem_brasil_2005_2025.csv  # Dataset gerado
 ├── requirements.txt                    # Dependências Python
 └── README.md                          # Este arquivo
+
 ```
+
+## Link do Projeto
+
+https://dados-reciclaveis-bw6z63mmrdwuhjsgkgjtoa.streamlit.app/
 
 ## 📊 Estrutura dos Dados
 
