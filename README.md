@@ -55,15 +55,15 @@ O dataset reúne dados anuais sobre a reciclagem no Brasil entre 2015 e 2025, co
 
 ## Colunas
 
-| Coluna                    | Descrição |
-|---------------------------|-----------|
-| `ano`                     | Ano do registro (2015–2025). |
-| `material`                | Tipo de material reciclável (6 categorias). Destaque para Metal (≈70% de taxa média de reciclagem), Papel/Papelão (≈65%) e Plástico, que apresenta maior     dificuldade de reciclagem. |
-| `quantidade_reciclada_ton`| Quantidade de material reciclada, em toneladas. |
-| `rejeito_ton`             | Quantidade de resíduos não reciclados, em toneladas. |
-| `taxa_reciclagem_pct`     | Taxa de reciclagem do material, em porcentagem (%). |
-| `economia_gerada_brl`     | Valor econômico estimado gerado pela reciclagem, em reais (R$). |
-| `co2_evitado_kg`          | Quantidade estimada de CO₂ evitada pela reciclagem, em quilogramas. |
+| Coluna                    | Descrição 
+|---------------------------|-----------
+|  ano                      | Ano do registro (2015–2025). 
+|  material                 | Tipo de material reciclável (6 categorias). Destaque para Metal (≈70% de taxa média de reciclagem), Papel/Papelão (≈65%) e Plástico, que apresenta maior     dificuldade de reciclagem. 
+|  quantidade_reciclada_ton | Quantidade de material reciclada, em toneladas. 
+|  rejeito_ton              | Quantidade de resíduos não reciclados, em toneladas. 
+|  taxa_reciclagem_pct      | Taxa de reciclagem do material, em porcentagem (%). 
+|  economia_gerada_brl      | Valor econômico estimado gerado pela reciclagem, em reais (R$). 
+|  co2_evitado_kg           | Quantidade estimada de CO₂ evitada pela reciclagem, em quilogramas. 
 
 
 
