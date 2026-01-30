@@ -46,36 +46,26 @@ O dataset contém as seguintes colunas:
 | `nivel_infraestrutura` | Nível de infraestrutura de reciclagem (Alto, Médio, Baixo) |
 | `material` | Tipo de material reciclável |
 | `residuo_gerado_ton` | Quantidad# Aplicação Streamlit
-├── gerar_dados.py                # Script para gerar dados
-├── dados_reciclagem_brasil.csv   # Dataset (66 registros)
-├── requirements.txt              # Dependências
-└── README.md                     # Documentação
+
 ```
 
 ## 📊 Estrutura dos Dados
 
-O dataset contém as seguintes colunas:
+O dataset reúne dados anuais sobre a reciclagem no Brasil entre 2015 e 2025, contemplando diferentes tipos de materiais recicláveis e seus impactos ambientais e econômicos.
 
-| Coluna | Descrição |
-|--------|-----------|
-| `ano` | Ano do registro (2015-2025) |
-| `material` | Tipo de material reciclável (6 tipos)
-- **Metal**: Maior taxa de reciclagem (~70%)
-- **Papel/Papelão**: Segunda maior taxa (~65%)
-- **Plástico**: NecessitaResíduo gerado (toneladas) |
-| `quantidade_reciclada_ton` | Quantidade reciclada (toneladas) |
-| `rejeito_ton` | Rejeito não reciclado (toneladas) |
-| `taxa_reciclagem_pct` | Taxa de reciclagem (%) |
-| `economia_gerada_brl` | Valor econômico gerado (R$) |
-| `co2_evitado_kg` | CO2 evitado pela reciclagem (kg) |
+## Colunas
+
+| Coluna                    | Descrição |
+|---------------------------|-----------|
+| `ano`                     | Ano do registro (2015–2025). |
+| `material`                | Tipo de material reciclável (6 categorias). Destaque para Metal (≈70% de taxa média de reciclagem), Papel/Papelão (≈65%) e Plástico, que apresenta maior     dificuldade de reciclagem. |
+| `quantidade_reciclada_ton`| Quantidade de material reciclada, em toneladas. |
+| `rejeito_ton`             | Quantidade de resíduos não reciclados, em toneladas. |
+| `taxa_reciclagem_pct`     | Taxa de reciclagem do material, em porcentagem (%). |
+| `economia_gerada_brl`     | Valor econômico estimado gerado pela reciclagem, em reais (R$). |
+| `co2_evitado_kg`          | Quantidade estimada de CO₂ evitada pela reciclagem, em quilogramas. |
 
 
-## 📝 Notas
-
-- Dados sintéticos para fins educacionais
-- 66 registros focados em apresentação clara e objetiva
-- Período: 2015-2025 (última década)
-- 6 materiais principais de reciclagem no Brasil
 
 ## 🎯 Insights
 
