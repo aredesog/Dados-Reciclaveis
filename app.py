@@ -24,10 +24,10 @@ df_filtrado = df[(df['ano'].isin(anos)) & (df['material'].isin(materiais))]
 # Métricas
 if not df_filtrado.empty:
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Taxa Média", f"{df_filtrado['taxa_reciclagem_pct'].mean():.1f}%")
-    col2.metric("Total Reciclado", f"{df_filtrado['quantidade_reciclada_ton'].sum()/1000:.0f}k ton")
-    col3.metric("CO2 Evitado", f"{df_filtrado['co2_evitado_kg'].sum()/1_000_000:.1f}M kg")
-    col4.metric("Economia", f"R$ {df_filtrado['economia_gerada_brl'].sum()/1_000_000:.0f}M")
+    col1.metric("Taxa Média", f"{df_filtrado['taxa_reciclagem_pct'].mean():.2f}%")
+    col2.metric("Total Reciclado", f"{df_filtrado['quantidade_reciclada_ton'].sum()/1000:.2f}k ton")
+    col3.metric("CO2 Evitado", f"{df_filtrado['co2_evitado_kg'].sum()/1_000_000:.2f}M kg")
+    col4.metric("Economia", f"R$ {df_filtrado['economia_gerada_brl'].sum()/1_000_000:.2f}M")
     
     st.markdown("---")
     
@@ -71,11 +71,11 @@ if not df_filtrado.empty:
     # Tabela
     with st.expander("📋 Ver Dados"):
         st.dataframe(df_filtrado.style.format({
-            'residuo_gerado_ton': '{:,.0f}',
-            'quantidade_reciclada_ton': '{:,.0f}',
-            'taxa_reciclagem_pct': '{:.1f}%',
-            'economia_gerada_brl': 'R$ {:,.0f}',
-            'co2_evitado_kg': '{:,.0f}'
+            'residuo_gerado_ton': '{:,.2f}',
+            'quantidade_reciclada_ton': '{:,.2f}',
+            'taxa_reciclagem_pct': '{:.2f}%',
+            'economia_gerada_brl': 'R$ {:,.2f}',
+            'co2_evitado_kg': '{:,.2f}'
         }), use_container_width=True)
         
         csv = df_filtrado.to_csv(index=False).encode('utf-8')
